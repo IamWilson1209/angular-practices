@@ -1,0 +1,44 @@
+# Node.js 相關
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock
+package-lock.json
+
+# Angular 編譯輸出
+dist/
+build/
+*.js.map
+*.tsbuildinfo
+.angular/
+coverage/
+
+# 環境配置文件
+.env
+.env.local
+.env.*.local
+
+# 編輯器和 IDE 配置文件
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 系統生成的檔案
+.DS_Store
+Thumbs.db
+
+# 日誌和臨時檔案
+*.log
+*.log.*
+temp/
+tmp/
+
+# 測試相關
+e2e/*.js
+e2e/*.map
+
+# 其他常見忽略
+*.bak
+*.swp
+*.swo
